@@ -1,0 +1,122 @@
+.contenidoProyectos{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.carousel__contenedorProyectos{
+    position: relative;
+}
+
+.carousel__elementoProjects{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 3px;
+    padding: 3px;
+}
+
+iframe {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.carousel__anteriorProject,
+.carousel__siguienteProject {
+    position: absolute;
+    display: block;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: #222;
+    background-color: #fff; 
+    padding-top: 10px;
+}
+
+.carousel__anteriorProject:hover,
+.carousel__siguienteProject:hover {
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+}
+
+#flechaAnt2,
+#flechaSig2 {
+    width: 50px;
+    height: 50px;
+    clip-path: circle(35%);
+}
+
+.carousel__siguienteProject {
+    right: -80px;
+}
+
+.carousel__anteriorProject {
+    left: -80px;
+}
+
+.carousel__indicadoresProyecto .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    opacity: 0.2;
+    border-radius: 0;
+}
+
+.carousel__indicadoresProyecto .glider-dot:hover {
+    opacity: 0.5;
+}
+
+.carousel__indicadoresProyecto .glider-dot.active {
+    opacity: 1;
+}
+
+@media(max-width:900px){
+    .carousel__anteriorProject {
+        left: -50px;
+    }
+
+    .carousel__siguienteProject {
+        right: -50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel__contenedorProyectos {
+        width: 95%;
+        margin: auto;
+    }
+
+    .contenidoProyectos {
+        padding: 0;
+    }
+    
+}
+
+@media (max-width:425px) {
+    #flechaAnt2 {
+        left: 5px;
+        background-color: #222;
+        color: white;
+    }
+
+    #flechaSig2 {
+        right: 5px;
+        background-color: #222;
+        color: white;
+    }
+
+    #flechaSig2:hover, #flechaAnt2:hover{
+        background-color: rgba(52, 52, 129, 0.466);
+        color: rgb(212, 200, 200);
+    }
+}
+
+@media(max-width: 350px) {
+    .contenidoProyectos{
+        width: 95%;
+    }
+}

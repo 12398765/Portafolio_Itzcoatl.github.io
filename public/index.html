@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/profile.jpeg">
+    <script src="https://kit.fontawesome.com/fce581bf59.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <title>Itzcoatl Ortega Santiago</title>
+</head>
+
+<!-- https://pixlr.com/x/  quita fondos a las img -->
+
+<body>
+    <div class="flex flex-col w-full fixed top-0 z-50">
+        <div class="title">
+            <h1>Itzcoatl Ortega Santiago</h1>
+            <br>
+            <span class="text-red-700 span-title py-3 mt-4"></span>
+        </div>
+
+        <!-- menu largo -->
+        <div class="hidden md:block bg-gray-600 w-full h-[50px] opacity-80">
+            <div class="menu">
+                <div class="izquierda_menu">
+                    <ul class="menu_largo">
+                        <li class="disabled cursor-pointer text-slate-500 font-bold border-b-[1px] border-b-slate-300">
+                            <i class="fa-solid fa-house"></i>
+                        </li>
+                        <li class="menu_item_large"><a href="sites/proyectos.html">Proyectos</a></li>
+                        <li class="menu_item_large"><a href="sites/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="derecha_menu">
+                    <ul class="menu_largo">
+                        <li class="menu_item_large"><a href="mailto:ix.obsid@gmail.com"
+                                target="_blank">ix.obsid@gmail.com</a></li>
+                        <li class="menu_item_large"><a href="tel:+523319087302" target="_blank">(+52)3324081350</a></li>
+                        <li>
+                            <a href=" https://wa.me/523319087302?text=He%20visto%20tu%20website%20y%20estoy%20interesado%20en%20contratarte"
+                                class="pt-5" target="_blank">
+                                <i
+                                    class="w-full h-full fa-brands fa-whatsapp text-base text-white rounded-full border-[1px] py-[1px] px-2 hover:bg-white hover:text-blue-500 transition-all duration-500">
+                                </i>
+                            </a>
+                        </li>
+                        <li
+                            class="cursor-pointer hover:bg-white hover:text-black transition-all duration-100 relative group ml-2 bg-black w-[50px] h-[30px] text-start pl-1 py-1 rounded-lg">
+                            CV <i class="fa-solid fa-arrow-down downl_icon_menu"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- menu cortito -->
+        <div class="menu_short_content">
+            <div class="bg-white w-full relative h-14 md:hidden">
+                <i class="fa-solid fa-bars absolute top-2 left-3 cursor-pointer bg-white menu_open transition-all duratio-500 notOpac"
+                    onclick="menu()"></i>
+                <i class="fa-solid fa-xmark text-red-500 absolute top-2 left-4 cursor-pointer bg-white menu_close transition-all duratio-500 opac"
+                    onclick="menu()"></i>
+            </div>
+
+            <div class="menu_short hidden">
+                <ul class="w-full">
+                    <li class="disabled w-10/12 mx-auto py-3 cursor-pointer bg-slate-100 text-slate-500 font-bold">
+                        <i class="fa-solid fa-house"></i>
+                    </li>
+                    <li class="menu_item_short" onclick="window.location.href='sites/proyectos.html'">Proyectos</li>
+                    <li class="menu_item_short" onclick="window.location.href='sites/contacto.html'">Contacto</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="cont_all">
+        <!-- sobre mi -->
+        <div class="w-full md:px-0 md:container mx-auto cont_all mt-5">
+            <div class="flex px-3 flex-col md:flex-row justify-center md:gap-10 group">
+                <img src="../img//profile.jpeg" alt="profile_Itzcoatl"
+                    class="w-full sm:w-[30%] md:w-[40%] lg:w-[30%] rounded-full md:rounded-md xl:rounded-full shadow-md mx-auto">
+                <div class="text-center my-10">
+                    <div class="relative w-[60%] xms:w-[40%] lg:w-4/12 md:w-[60%] mx-auto">
+                        <h2 class="text-2xl  mx-auto py-3">
+                            ¿Quién Soy?
+                        </h2>
+                        <div
+                            class="absolute bottom-0 left-0 w-full h-1 duration-700 origin-left transform scale-x-0 bg-slate-300 group-hover:scale-x-100">
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 w-1 h-full duration-700 origin-bottom transform scale-y-0 bg-slate-300 group-hover:scale-y-100">
+                        </div>
+                        <div
+                            class="absolute top-0 left-0 w-full h-1 duration-700 origin-right transform scale-x-0 bg-slate-300 group-hover:scale-x-100">
+                        </div>
+                        <div
+                            class="absolute bottom-0 right-0 w-1 h-full duration-700 origin-top transform scale-y-0 bg-slate-300 group-hover:scale-y-100">
+                        </div>
+                    </div>
+
+                    <p class="w-full md:w-[80%] lg:w-[60%] mt-10 mx-auto">
+                        Buen día. Mi nombre es <span class="text-red-500">Itzcoatl Ortega Santiago</span>.
+                        Actualmente soy estudiante de la carrera de Ingeniería en Desarrollo de Software, y busco en
+                        dónde
+                        realizar mis estadías profesionales
+                        con el fin de colaborar con un equipo de trabajo, brindando mis conocimientos y habilidades y
+                        dirigirlas hacia las metas del equipo.
+                        Disfruto programando sobre todo páginas web, me gustan los retos y estoy abierto a recibir
+                        capacitación constante acorde a las tecnologías requeridas
+                        para el desarrollo de software, y más específicamente de páginas web.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conocimientos -->
+        <div class="text-center mt-5 mx-auto group">
+            <div class="relative w-[95%] xms:w-[80%] sm:w-[50%] lg:w-4/12 mx-auto">
+                <h2 class="text-2xl py-3 mt-24">Escolaridad y Conocimientos</h2>
+                <!-- efecto hover -->
+                <div
+                    class="absolute bottom-0 left-0 w-full h-1 duration-700 origin-left transform scale-x-0 bg-slate-300 group-hover:scale-x-100">
+                </div>
+                <div
+                    class="absolute bottom-0 left-0 w-1 h-full duration-700 origin-bottom transform scale-y-0 bg-slate-300 group-hover:scale-y-100">
+                </div>
+                <div
+                    class="absolute top-0 left-0 w-full h-1 duration-700 origin-right transform scale-x-0 bg-slate-300 group-hover:scale-x-100">
+                </div>
+                <div
+                    class="absolute bottom-0 right-0 w-1 h-full duration-700 origin-top transform scale-y-0 bg-slate-300 group-hover:scale-y-100">
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+                <div class="conocimientos text-center">
+                    <div class="card_conocimientos group">
+                        <div
+                            class="flex gap-5 border-b-2 border-b-slate-300 w-[80%] mx-auto text-center justify-center items-center">
+                            <p class="py-5 font-bold text-xl">Conocimientos técnicos</p>
+                            <i class="fa-solid fa-book-open-reader"></i>
+                        </div>
+
+                        <div class="flex justify-center flex-wrap flex-row">
+                            <div class="block">
+                                <p class="mt-5 font-bold mb-3 text-red-700">Front-End</p>
+                                <div class="flex flex-wrap justify-center sm:justify-between items-center">
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/front/html.png" alt="HTML_Itzcoatl" class="img_skills">
+                                        <p class="txtSkills">HTML - INTERMEDIO</p>
+                                    </div>
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/front/css.PNG" alt="HTML_Itzcoatl" class="img_skills">
+                                        <p class="txtSkills">CSS - INTERMEDIO</p>
+                                    </div>
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/front/js.PNG" alt="HTML_Itzcoatl" class="img_skills">
+                                        <p class="txtSkills">JS - INTERMEDIO</p>
+                                    </div>
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/front/Bootstrap.PNG" alt="HTML_Itzcoatl"
+                                            class="img_skills">
+                                        <p class="txtSkills">BOOTSTRAP - INTERMEDIO</p>
+                                    </div>
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/front/tailwind.jpeg" alt="HTML_Itzcoatl"
+                                            class="img_skills">
+                                        <p class="txtSkills"> TAILWIND - INTERMEDIO</p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block mr-3">
+                                <p class="mt-10 mb-5 font-bold text-red-700">Repositorios</p>
+                                <div class="flex justify-between">
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/repositorios/gitt.png" alt="HTML_Itzcoatl"
+                                            class="img_skills">
+                                        <p class="txtSkills">GIT - INTERMEDIO</p>
+                                    </div>
+
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/repositorios/github.png" alt="HTML_Itzcoatl"
+                                            class="img_skills">
+                                        <p class="txtSkills">GITHUB - INTERMEDIO</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block ml-4">
+                                <p class="mt-10 font-bold mb-5 text-red-700">Back-End</p>
+                                <div class="flex justify-center flex-wrap">
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/back/mysql.png" alt="HTML_Itzcoatl" class="img_skills">
+                                        <p class="txtSkills">MYSQL - INTERMEDIO</p>
+                                    </div>
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/back/php.jpeg" alt="HTML_Itzcoatl" class="img_skills">
+                                        <p class="txtSkills">PHP - INTERMEDIO</p>
+                                    </div>
+                                    <div class="flex justify-center items-center flex-col p-3 group/img">
+                                        <img src="../img//skills/back/laravel.png" alt="HTML_Itzcoatl"
+                                            class="img_skills">
+                                        <p class="txtSkills">LARAVEL - INTERMEDIO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="school text-center">
+                    <div class="card_school">
+                        <div
+                            class="flex gap-5 border-b-2 border-b-slate-300 w-[80%] mx-auto text-center justify-center items-center">
+                            <p class="py-5 font-bold text-xl">Escolaridad</p>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <p class="mt-5 font-bold"> Ing. Desarrollo de Software</p>
+                        <p class="pb-3 pt-1 text-school">
+                            He aprendido a desarrollar programas en distintos lemguajes, y he logrado realizar distintos
+                            proyectos relacionados al desarrollo de software. Aprendí lo básico de páginas web tanto del
+                            front
+                            como del back,
+                            y hasta la fecha, es lo que más he disfrutado durante todo este tiempo.
+                        </p>
+
+                        <div class="flex flex-col justify-center md:justify-between md:flex-row w-full text-center">
+                            <div class="block md:mr-5">
+                                <p class="mt-5 font-bold"> Diplomado Full Stack en The Royale Master Academy</p>
+                                <p class="pb-3 pt-1 text-school">
+                                    Actualmente tmbién estoy estudiando un diplomado FULL STACK en donde espero aprender
+                                    más cosas del lado del back,
+                                    enfocandolo a bases de datos no relacionales y apis.
+                                </p>
+                            </div>
+
+                            <div class="block md:ml-5">
+                                <p class="mt-5 font-bold">Tecnólogo en Control Automático e Instrumentación</p>
+                                <p class="pb-3 pt-1 text-school">
+                                    Aprendí conceptos básicos y avanzados de automatización de procesos, mediciones de
+                                    control,
+                                    electrónica básica y avazada. Realicé algunos proyectos de automatización y
+                                    desarrollé
+                                    lógica
+                                    matemática.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="w-full bg-slate-800 h-[300px] flex flex-col items-center">
+            <div class="block text-center text-white my-3 py-3">
+                <p>Creado con el <i class="fa-solid fa-heart"></i></p><br>
+                <p><i class="fa-solid fa-copyright mb-5"></i> Derechos Reservados <span class="text-red-500">Itzcoatl
+                        Ortega
+                        Santiago</span>
+                </p>
+
+                <a href="../curriculum/Curriculum.pdf" download="Curriculum.pdf" class="btn group">
+                    CV <i class="fa-solid fa-arrow-down downl_icon"></i>
+                </a>
+
+            </div>
+            <p class="mt-4 mb-3 text-center text-white">Contacto</p>
+
+            <div class="flex justify-center items-center gap-3 md:gap-5">
+                <a href=" https://wa.me/523319087302?text=He%20visto%20tu%20website%20y%20estoy%20interesado%20en%20contratarte"
+                    target="_blank">
+                    <i
+                        class="w-full h-full fa-brands fa-whatsapp text-3xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500">
+                    </i>
+                </a>
+                <a href="tel:+523319087302" target="_blank">
+                    <i
+                        class="fa-solid fa-phone w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                </a>
+                <a href="mailto:ix.obsid@gmail.com" target="_blank">
+                    <i
+                        class="fa-solid fa-envelope w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                </a>
+                <a href="https://discordapp.com/channels/@me/1870/" target="_blank">
+                    <i
+                        class="fa-brands fa-discord w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                </a>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

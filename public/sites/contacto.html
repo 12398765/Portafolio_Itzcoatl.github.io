@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/profile.jpeg">
+    <script src="https://kit.fontawesome.com/fce581bf59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../main.css">
+    <title>Itzcoatl_Ortega_Santiago/Contacto</title>
+</head>
+
+<body>
+    <div class="flex flex-col w-full fixed top-0 z-50">
+        <div class="title">
+            <h1>Itzcoatl Ortega Santiago</h1>
+            <br>
+            <span class="text-red-700 span-title py-3 mt-4"></span>
+        </div>
+
+        <!-- menu largo -->
+        <div class="hidden md:block bg-gray-600 w-full h-[50px] opacity-80">
+            <div class="menu">
+                <div class="izquierda_menu">
+                    <ul class="menu_largo">
+                        <li class="menu_item_large">
+                            <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="menu_item_large"><a href="proyectos.html"> Proyectos </a></li>
+                        <li class="disabled cursor-pointer text-slate-500 font-bold border-b-[1px] border-b-slate-300">
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="derecha_menu">
+                    <ul class="menu_largo">
+                        <li class="menu_item_large"><a href="mailto:ix.obsid@gmail.com"
+                                target="_blank">ix.obsid@gmail.com</a></li>
+                        <li class="menu_item_large"><a href="tel:+523319087302" target="_blank">(+52)3324081350</a></li>
+                        <li>
+                            <a href=" https://wa.me/523319087302?text=He%20visto%20tu%20website%20y%20estoy%20interesado%20en%20contratarte"
+                                target="_blank" class="pt-5">
+                                <i
+                                    class="w-full h-full fa-brands fa-whatsapp text-base text-white rounded-full border-[1px] py-[1px] px-2 hover:bg-white hover:text-blue-500 transition-all duration-500">
+                                </i>
+                            </a>
+                        </li>
+                        <li
+                            class="cursor-pointer hover:bg-white hover:text-black transition-all duration-100 relative group ml-2 bg-black w-[50px] h-[30px] text-start pl-1 py-1 rounded-lg">
+                            CV <i class="fa-solid fa-arrow-down downl_icon_menu"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- menu cortito -->
+        <div class="menu_short_content">
+            <div class="bg-white w-full relative h-14 md:hidden">
+                <i class="fa-solid fa-bars absolute top-2 left-3 cursor-pointer bg-white menu_open transition-all duratio-500 notOpac"
+                    onclick="menu()"></i>
+                <i class="fa-solid fa-xmark text-red-500 absolute top-2 left-4 cursor-pointer bg-white menu_close transition-all duratio-500 opac"
+                    onclick="menu()"></i>
+            </div>
+
+            <div class="menu_short hidden">
+                <ul class="w-full">
+                    <li class="menu_item_short" onclick="window.location.href='../index.html'">
+                        <i class="fa-solid fa-house"></i>
+                    </li>
+                    <li class="menu_item_short" onclick="window.location.href='proyectos.html'">
+                        Proyectos</li>
+                    <li class="disabled w-10/12 mx-auto py-3 cursor-pointer bg-slate-100 text-slate-500 font-bold">
+                        Contacto</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont_all">
+        <div class="text-center flex flex-col justify-center items-center mb-24">
+            <h1 class="text-2xl py-3 font-bold">Comunícate conmigo!</h1>
+            <div class="flex justify-between w-full flex-col md:flex-row">
+                <div class="flex flex-col  w-full">
+                    <p class="mt-4 text-white">Llámame o envíame un whats al <span class="text-red-500"> +52
+                            3319087302
+                        </span></p>
+                    <p class="mt-2 text-white">Envíame un email a <a class="text-red-500" href="#"> ix.obsid@gmail.com
+                        </a></p>
+                    <p class="mt-2 text-white">Encuéntrame en Discord <a href="" class="text-red-500">Dando click
+                            aquí</a></p>
+                </div>
+
+                <div class="flex justify-center items-center gap-3 md:gap-5 w-full">
+                    <a href=" https://wa.me/523319087302?text=He%20visto%20tu%20website%20y%20estoy%20interesado%20en%20contratarte"
+                        target="_blank">
+                        <i
+                            class="w-full h-full fa-brands fa-whatsapp text-3xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500">
+                        </i>
+                    </a>
+                    <a href="tel:+523319087302" target="_blank">
+                        <i
+                            class="fa-solid fa-phone w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                    </a>
+                    <a href="mailto:ix.obsid@gmail.com" target="_blank">
+                        <i
+                            class="fa-solid fa-envelope w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                    </a>
+                    <a href="https://discordapp.com/channels/@me/1870/" target="_blank">
+                        <i
+                            class="fa-brands fa-discord w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="mt-5 text-white">
+                Zapopan Jalisco, México
+            </p>
+        </div>
+
+        <footer class="w-full bg-slate-800 h-[300px] flex flex-col items-center">
+            <div class="block text-center text-white my-3 py-3">
+                <p>Creado con el <i class="fa-solid fa-heart"></i></p><br>
+                <p><i class="fa-solid fa-copyright mb-5"></i> Derechos Reservados <span class="text-red-500">Itzcoatl
+                        Ortega
+                        Santiago</span>
+                </p>
+
+                <a href="../../curriculum/Curriculum.pdf" download="Curriculum.pdf" class="btn group">
+                    CV <i class="fa-solid fa-arrow-down downl_icon"></i>
+                </a>
+
+            </div>
+            <p class="mt-4 mb-3 text-center text-white">Contacto</p>
+
+            <div class="flex justify-center items-center gap-3 md:gap-5">
+                <a href=" https://wa.me/523319087302?text=He%20visto%20tu%20website%20y%20estoy%20interesado%20en%20contratarte"
+                    target="_blank">
+                    <i
+                        class="w-full h-full fa-brands fa-whatsapp text-3xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500">
+                    </i>
+                </a>
+                <a href="tel:+523319087302" target="_blank">
+                    <i
+                        class="fa-solid fa-phone w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                </a>
+                <a href="mailto:ix.obsid@gmail.com" target="_blank">
+                    <i
+                        class="fa-solid fa-envelope w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                </a>
+                <a href="https://discordapp.com/channels/@me/1870/" target="_blank">
+                    <i
+                        class="fa-brands fa-discord w-full h-full text-2xl text-white rounded-full border-2 py-2 px-3 hover:bg-white hover:text-blue-500 transition-all duration-500"></i>
+                </a>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
