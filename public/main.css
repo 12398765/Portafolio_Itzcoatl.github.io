@@ -1211,7 +1211,7 @@ body {
 .downl_icon {
   position: absolute;
   top: 3px;
-  right: 0px;
+  right: 0.25rem;
   width: 100%;
   text-align: right;
   --tw-text-opacity: 1;
@@ -1229,8 +1229,10 @@ body {
 
 .downl_icon_menu {
   position: absolute;
-  top: 0px;
-  right: 1px;
+  top: 3px;
+  right: 0.25rem;
+  width: 100%;
+  text-align: right;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
   transition-property: all;

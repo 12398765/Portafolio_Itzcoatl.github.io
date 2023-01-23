@@ -89,9 +89,9 @@ body{
 }
 
 .downl_icon{
-    @apply absolute w-full top-[3px] right-0 text-right text-gray-400 group-hover:translate-y-5 delay-100 transition-all duration-500
+    @apply absolute w-full top-[3px] right-1 text-right text-gray-400 group-hover:translate-y-5 delay-100 transition-all duration-500
 }
 
 .downl_icon_menu{
-    @apply absolute top-0 right-[1px] text-gray-400 group-hover:translate-y-3 delay-100 transition-all duration-500
+    @apply absolute w-full top-[3px] right-1 text-right text-gray-400 group-hover:translate-y-3 delay-100 transition-all duration-500
 }
